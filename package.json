@@ -1,13 +1,15 @@
 {
   "name": "winston-splunk-transport",
   "description": "A Splunk transport for winston",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": {
     "name": "Eric Helgeson"
   },
-  "contributors": [{
-    "name": "Chris Landry"
-  }],
+  "contributors": [
+    {
+      "name": "Chris Landry"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/topherlandry/winston-splunk.git"
