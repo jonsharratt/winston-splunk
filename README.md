@@ -1,4 +1,4 @@
-# winston-splunk 
+# winston-splunk-transport
 
 A [splunk][2] transport for [winston][0]. Inspired by [winston-greylog2][1].
 
@@ -13,7 +13,7 @@ Tested on node-0.6.x and 0.8.x, requires npm & winston.
 ## Usage
 ``` js
   var winston = require('winston');
-  winston.add(require('winston-splunk').splunk, options);
+  winston.add(require('winston-splunk-transport').splunk, options);
 
 ```
 ## Splunk props.conf
@@ -30,6 +30,7 @@ Options are the following:
 * __level:__ Level of messages this transport should log. (default: info)
 * __silent:__ Boolean flag indicating whether to suppress output. (default: false)
 * __type:__ Log type. (default: application)
+* __label:__ Label for logger. (default: empty)
 
 * __splunkHost:__ IP address or hostname of the Splunk server. (default: localhost)
 * __splunkPort:__ Port to send messages to on the Splunk server. (default: 54321)
