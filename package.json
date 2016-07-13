@@ -1,7 +1,7 @@
 {
   "name": "winston-splunk-transport",
   "description": "A Splunk transport for winston",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "author": {
     "name": "Eric Helgeson"
   },
